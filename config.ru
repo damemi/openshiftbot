@@ -8,7 +8,7 @@ bot = Cinch::Bot.new do
   end
 
   on :message, "hello" do |m|
-    m.reply "Hello, #{m.user.nick}"
+    m.reply "HOWDY, #{m.user.nick}!!!"
   end
 end
 
